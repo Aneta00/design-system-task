@@ -20,4 +20,34 @@
       "Segoe UI Symbol",
       "Noto Color Emoji";
   }
+
+  body {
+    position: relative;
+  }
+}
+
+@layer utilities {
+  .button-with-before {
+    border: none;
+    background: transparent;
+    display: block;
+    line-height: 0;
+  }
+  .button-with-before::before {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .button-with-before span {
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    width: 1px;
+  }
 }

@@ -5,7 +5,7 @@
       "title": "Design 1",
       "subtitle": "Lorem ipsum dolor",
       "isPrivate": false,
-      "isFavorite": false,
+      "isFavorite": true,
       "imageSrc": "https://via.placeholder.com/640x360",
       "author": {
         "id": "1",
