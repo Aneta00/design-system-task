@@ -21,3 +21,13 @@ pnpm dev
 # run Storybook
 pnpm storybook
 ```
+
+## Aneta's comments and process:
+
+- Added more tokens to Tailwind config. Added dark theme colours.
+
+- Created only two main components: MediaCard and Dialog. If I had more time I would created more atomic components that make of the inside of the dialog (like toggle buttons and titles). Would also create Headings as separate components, more typohraphy in general.
+
+- Didn't have time to make it pixel perfect, was focusing on functinality as per spec document mentioning functionality is important. Still run out of time to implement changing the Favorite option, hardcoded it for now with just one option.
+
+- If it was going to production, would probably have removed the toggle for now, and spend time on maing it visually more pleasant with a one Favorite option, and added more complex settings later.
